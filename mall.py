@@ -12,7 +12,7 @@ from langchain.llms import Cohere as CohereLLM
 from langchain.embeddings.base import Embeddings
 
 st.set_page_config(
-        page_title="Chat Bot",
+        page_title=" rajesh's Chat Bot",
         page_icon="🔴",
         layout="centered"
     )

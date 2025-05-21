@@ -102,7 +102,7 @@ if app_selection == "Institution Info Finder":
 elif app_selection == "Rotaract Chat Bot":
        
 
-    COHERE_API_KEY = "4sdfokOEwmY7Z3gC3AtNa6TUsuLtx9Q6IbaqZB1X"
+    COHERE_API_KEY = "your-api-key here"
     co = cohere.Client(COHERE_API_KEY)
 
     class CustomCohereEmbeddings(Embeddings):
